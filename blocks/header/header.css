@@ -1,0 +1,13 @@
+@import url(__content/header__content.css);
+@import url(__logo/header__logo.css);
+@import url(__nav/header__nav.css);
+@import url(__nav-link/header__nav-link.css);
+@import url(__nav-item/header__nav-item.css);
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}

@@ -1,0 +1,11 @@
+@import url(__copy/footer__copy.css);
+@import url(__logo/footer__logo.css);
+@import url(__content/footer__content.css);
+
+.footer {
+    max-width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+
+}

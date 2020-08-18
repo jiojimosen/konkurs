@@ -1,0 +1,19 @@
+@import url(__card/history__card.css);
+@import url(__card-title/history__card-title.css);
+@import url(__youtube/history__youtube.css);
+@import url(__card-title/_end/history__card-title_end.css);
+
+.history {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+@media(max-width: 768px) {
+    .history {
+        flex-wrap: wrap;
+    }
+}

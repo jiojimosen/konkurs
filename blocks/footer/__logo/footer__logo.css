@@ -1,0 +1,9 @@
+.footer__logo {
+    width: 60px;
+}
+
+@media(max-width: 359px) {
+    .footer__logo {
+        width: 40px;
+    }
+}

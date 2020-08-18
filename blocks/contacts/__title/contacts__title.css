@@ -1,0 +1,14 @@
+.contacts__title {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+@media (max-width: 579px) {
+    .contacts__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}

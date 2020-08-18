@@ -1,0 +1,9 @@
+.info__block {
+    /*min-height: 100vh;*/
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}

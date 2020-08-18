@@ -1,0 +1,14 @@
+@import url(__promo/wrapper__promo.css);
+@import url(__info/wrapper__info.css);
+
+.wrapper {
+    max-width: 1920px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /*background-image: url(../../images/bg.svg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-attachment: fixed;*/
+}

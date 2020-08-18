@@ -1,0 +1,14 @@
+.footer__copy {
+    max-width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 20px;
+
+}
+
+@media(max-width: 359px) {
+    .footer__copy {
+        font-size: 10px;
+    }
+}

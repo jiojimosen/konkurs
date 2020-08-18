@@ -1,0 +1,36 @@
+@import url(__title/promo__title.css);
+@import url(__button/promo__button.css);
+@import url(__content/promo__content.css);
+@import url(__paragraph/promo__paragraph.css);
+@import url(__modal-paragraph/promo__modal-paragraph.css);
+@import url(__modal-paragraph/_italic/promo__modal-paragraph_italic.css);
+
+.promo {
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(../../images/bg-big.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+}
+
+@media (max-width: 1320px) {
+.promo {
+    padding: 0 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    }
+}
+
+/*@media (max-width: 768px) {
+    .promo {
+        min-height: auto;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .promo {
+        padding: 20px;
+    }
+}*/

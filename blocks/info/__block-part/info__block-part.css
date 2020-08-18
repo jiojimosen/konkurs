@@ -1,0 +1,13 @@
+.info__block-part {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 619px) {
+    .info__block-part {
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="За звание лучшего психолога Москвы поборются профессионалы из организаций столицы. В сентябре пройдет отборочный этап конкурса «Московские мастера» по профессии «Психолог», а в октябре мы узнаем имена финалистов." />
+  <title>Конкурс профессионального мастерства "Московские мастера" по профессии «Психолог»</title>
+  <link href="./pages/index.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="vendor/count/jquery.countdown.js"></script>
+  <script src="vendor/lightbox/js/lightbox.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+</head>
+<body>
+    <div id="_home" class="wrapper">
+        <header class="header">
+            <div class="header__content">
+                <a href="#_home"><img class="header__logo" src="images/logo-img.svg" alt="Лого" /></a>
+                <ul class="header__nav">
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_home"><i class="fas fa-home"></i></a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_start">Отборочный этап</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_final">Финальный этап</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_history">История</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_contacts">Информация</a></li>
+                    <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>-->
+                </ul>
+                <div class="menu">
+                    <a class="menu-triger" href="#">
+                        <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
+                            <path
+                                  class="line top"
+                                  d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+                            <path
+                                  class="line middle"
+                                  d="m 70,50 h -40" />
+                            <path
+                                  class="line bottom"
+                                  d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+                        </svg>
+                    </a>
+                    <div class="menu-popup">
+                        <ul>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_home"><i class="fas fa-home"></i></a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_start">Отборочный этап</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_final">Финальный этап</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_history">История</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_contacts">Информация</a></li>
+                            <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>-->
+                        </ul>						
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="_promo" class="promo">
+            <div class="promo__content">
+                <div class="counter">
+                    <ul id="example" class="counter">
+                        <li class="unit"><span class="days date">00</span><p class="days_text text">дней</p></li>
+                        <li class="unit"><span class="hours date">00</span><p class="hours_text text">часов</p></li>
+                        <li class="unit"><span class="minutes date">00</span><p class="minutes_text text">минут</p></li>
+                        <li class="unit"><span class="seconds date">00</span><p class="seconds_text text">секунд</p></li>
+                    </ul>
+                </div>
+                <h1 class="promo__title">Конкурс профессионального мастерства<br /> "Московские мастера"<br /> по профессии «Психолог»</h1>
+                <a class="promo__button" href="#promo-more" rel="modal:open">Подробнее</a>
+                <p class="promo__paragraph">За звание лучшего психолога Москвы поборются профессионалы из организаций столицы.
+                    В сентябре пройдет отборочный этап конкурса «Московские мастера» по профессии «Психолог», а в октябре мы узнаем имена финалистов.
+                    </p>
+            </div>
+        </section>
+
+        <main id="info" class="info wrapper__info">
+            
+            <section id="_start" class="info__block">
+                <img class="info__block-image" src="./images/start.svg" alt="Старт" /> 
+                <div class="info__block-content">
+                    <h2 class="info__block-title">Отборочный этап<span class="info__block-bage">онлайн</span></h2>
+                    <p class="info__block-date">23.09.2020</p>
+                    <div class="info__block-area">
+                        <div class="info__block-part">
+                            <p class="info__block-subtitle">Подать заявку на участие</p>
+                            <p class="info__block-paragraph">
+                                Если Вы желаете стать <strong>участником</strong> отборочного этапа «Конкурса» для учреждений Департамента труда и социальной защиты населения города Москвы, пожалуйста, ознакомьтесь с <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank">Порядком проведения отборочного этапа «Конкурса».</a>
+                            </p>
+                        </div>
+                        <div class="info__block-part">
+                            <p class="info__block-subtitle">Зарегистрироваться на мероприятие</p>
+                            <p class="info__block-paragraph">
+                                Вы можете зарегистрировать в качестве зрителя. <span class="info__block-paragraph_alert">Внимание!</span> <strong>Количество участников ограничено!</strong>
+                            </p>
+                            <a class="info__button" href="http://b68448.vr.mirapolis.ru/mira/s/LUQc0s" target="_blank">Стать зрителем</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="info__line">
+
+            <section id="_final" class="info__block info__block_order-back">
+                <img class="info__block-image" src="./images/final.svg" alt="Финал" /> 
+                <div class="info__block-content">
+                    <h2 class="info__block-title">Финальный этап</h2>
+                    <p class="info__block-date">21.10.2020</p>
+                    <!--<div class="info__block-area">
+                        <div class="info__block-part">
+                            <p class="info__block-subtitle">Порядок проведения</p>
+                            <p class="info__block-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam orci dui, fringilla nec turpis non, malesuada scelerisque metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam vel interdum ex. Fusce posuere eget augue fringilla laoreet. Nunc at viverra dolor. Nullam neque ipsum, condimentum eu scelerisque vulputate, bibendum eu est. Ut elementum, eros quis blandit tempus, leo eros fringilla tellus, in molestie nisl lorem nec augue. Nam tincidunt efficitur egestas. Nunc sodales, leo sed blandit pulvinar, libero ligula vehicula nisl, non facilisis mauris lectus id elit. Etiam ante velit, elementum non aliquam sit amet, egestas sit amet dui. Quisque eget posuere enim. Sed porttitor lorem sapien, et tristique quam molestie nec. Etiam pharetra turpis id vestibulum posuere. Nullam quam mauris, pharetra sit amet mattis sed, tempor eget mauris.
+                            </p>
+                        </div>
+                        <div class="info__block-part">
+                            <p class="info__block-subtitle">Зарегистрироваться на мероприятие</p>
+                            <p class="info__block-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam orci dui, fringilla nec turpis non, malesuada scelerisque metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam vel interdum ex. Fusce posuere eget augue fringilla laoreet. Nunc at viverra dolor. Nullam neque ipsum, condimentum eu scelerisque vulputate, bibendum eu est. Ut elementum, eros quis blandit tempus, leo eros fringilla tellus, in molestie nisl lorem nec augue. Nam tincidunt efficitur egestas. Nunc sodales, leo sed blandit pulvinar, libero ligula vehicula nisl, non facilisis mauris lectus id elit. Etiam ante velit, elementum non aliquam sit amet, egestas sit amet dui. Quisque eget posuere enim. Sed porttitor lorem sapien, et tristique quam molestie nec. Etiam pharetra turpis id vestibulum posuere. Nullam quam mauris, pharetra sit amet mattis sed, tempor eget mauris.
+                            </p>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+        </main>
+
+        <section id="_history" class="history">
+            <div class="history__card">
+                <h2 class="history__card-title">Конкурс 2019</h2>
+                    <div class="gallery">
+                    <figure class="gallery__item"><a href="images/gallery/01.jpg" data-lightbox="competition"><img src="images/gallery/thumb/01.jpg" class="gallery__image" /></a></figure>
+                    <figure class="gallery__item"><a href="images/gallery/02.jpg" data-lightbox="competition"><img src="images/gallery/thumb/02.jpg" class="gallery__image" /></a></figure>
+                    <figure class="gallery__item"><a href="images/gallery/03.jpg" data-lightbox="competition"><img src="images/gallery/thumb/03.jpg" class="gallery__image" /></a></figure>
+                    <figure class="gallery__item gallery__item_bg-dark"><iframe class="history__youtube" height="100%" src="https://www.youtube.com/embed/AV6kUTJROFw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+                    <figure class="gallery__item"><a href="images/gallery/06.jpg" data-lightbox="competition"><img src="images/gallery/thumb/06.jpg" class="gallery__image" /></a></figure>
+                    <figure class="gallery__item"><a href="images/gallery/05.jpg" data-lightbox="competition"><img src="images/gallery/thumb/05.jpg" class="gallery__image" /></a></figure>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--<section class="media"></section>
+
+        <section class="partners"></section>-->
+
+        <section id="_contacts" class="info__block">
+            <img class="info__block-image" src="./images/info.svg" alt="Инфо" /> 
+            <div class="info__block-content">
+                <h2 class="info__block-title">Информация</h2>
+                <div class="info__block-area">
+                    <div class="info__block-part">
+                        <p class="info__block-subtitle">Контакты</p>
+                        <p class="info__block-paragraph info__block-paragraph_info"><i class="fas fa-envelope-open" style="padding-right: 20px; opacity: 0.7;"></i>konkurs@msph.ru</p>
+                        <p class="info__block-paragraph info__block-paragraph_info"><i class="fas fa-phone" style="padding-right: 20px; opacity: 0.7;"></i>+7 (499) 796-25-10</p>
+                        <p class="info__block-paragraph info__block-paragraph_info" style="padding-left: 58px;">+7 (499) 177-73-65</p>
+                    </div>
+                    <div class="info__block-part">
+                        <p class="info__block-subtitle">Конкурс</p>
+                        <a class="info__block-link info__block-link_space" href="#content" rel="modal:open">Организационный комитет Конкурса</a>
+                        <a class="info__block-link info__block-link_space" href="./media/docs/order.pdf" target="_blank">Приказ Департамента труда и социальной защиты города Москвы №318к от 04 марта 2020 года "О проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог""</a>
+                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank">Положение о проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог"</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <img class="footer__logo" src="images/logo_light.svg" alt="Лого">
+                <p class="footer__copy">&copy; 2020, Государственное бюджетное учреждение «Московская служба психологической помощи населению» Департамента труда и социальной защиты населения города Москвы</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--Some Texts-->
+    <!--First-->
+    <div id="promo-more" class="modal">
+        <p class="promo__modal-paragraph">В Москве состоится ежегодный конкурс, направленный на повышение престижа профессии и мастерства психологов, распространение передового опыта и методов работы в области психологии среди специалистов в организациях столицы.</p> 
+        <p class="promo__modal-paragraph">Проведения конкурса обусловлено увеличением важности работы психологов с жителями столицы по самым различным проблемам, с которыми можно столкнуться в мегаполисе: стрессы, отношения в семье, отсутствие взаимопонимания, тревога, страхи и т.д. К сожалению, в сознании людей есть предубеждения к обращению к профессиональным психологам и недоверие к ним. Поэтому организаторы поставили себе цель сформировать позитивное общественное мнение в отношении работы психологов, чтобы москвичи не боялись прийти на консультацию и обсудить интересующие вопросы с профессионалом, помогающим найти решение из сложной жизненной ситуации.</p>
+        <p class="promo__modal-paragraph">Участником конкурса может стать любой психолог из организации Москвы со стажем работы по специальности не менее 2 лет, подавший заявку в отраслевой или территориальный орган исполнительной власти столицы на фирменном бланке организации, в которой он осуществляет свою профессиональную деятельность. В заявке необходимо указать ФИО, место работы, дату рождения, место жительства, сведения об образовании и повышении квалификации, стаж работы общий и в должности психолога.</p> 
+        <p class="promo__modal-paragraph">В августе победителей и призеров отборочного этапа конкурса будут ожидать новые задания в финальном соревновании, по итогам которого будет составлен рейтинг 10 лучших психологов города Москвы.</p>
+        <p class="promo__modal-paragraph promo__modal-paragraph_italic">Председателем Организационного комитета конкурса выступит первый заместитель руководителя Департамента труда и социальной защиты населения города Москвы Ольга Евгеньевна Грачева. Также в комиссию входят представители Департамента образования города Москвы, Департамента здравоохранения города Москвы, директор ГБУ «Московская служба психологической помощи населению» Нина Алексеевна Петроченко и руководители нескольких учреждений социальной защиты населения города Москвы.</p>
+        <p class="promo__modal-paragraph promo__modal-paragraph_italic">Организаторами финального этапа конкурса являются Департамент труда и социальной защиты населения города Москвы, Московская Федерация профсоюзов и Московская Конфедерация промышленников и предпринимателей (работодателей).</p>
+    </div>
+
+    <!--Second-->
+    <div id="content" class="modal">
+        <p class="promo__modal-paragraph">Грачева О.Е. – первый заместитель руководителя Департамента труда и социальной защиты населения города Москвы, председатель организационного комитета
+        <p class="promo__modal-paragraph">Петроченко Н.А. – директор ГБУ МСППН Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Михайличенко Г.И. – директор ГБУ ПВВ «Коньково» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Овсянников С.П. – начальник Управления государственной службы, кадровой и правовой работы Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Сокорева И.Е. – начальник Управления кадровой политики и образования Департамента здравоохранения города Москвы 
+        <p class="promo__modal-paragraph">Чернов Никита Владимирович – заведующий отделением психотерапевтической помощи и социальной реабилитации ГКБ №1 им. Н.А. Алексеева
+        <p class="promo__modal-paragraph">Паршина Наталья Леонидовна – начальник отдела по взаимодействию с общественностью ГБУ «Городской психолого-педагогический центр» Департамента образования города Москвы 
+        <p class="promo__modal-paragraph">Сырникова Б.А. – директор ГБУ «Научно-практический реабилитационный центр» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Меньшов В.А. – директор ГБУ ЦССВ «Наш дом» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Понамарева И.Н. – директор ГБУ ЦСПСиД САО г. Москвы Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Еремичев А.В. – заместитель директора ГБУ МСППН Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Сытникова Г.В. – председатель Территориальной Профсоюзной Организации учреждений социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Соколова И.В. – начальник отдела проектного менеджмента ГБУ МСППН, секретарь организационного комитета 
+    </div>
+
+    <script>
+        $(function() {
+            var $menu_popup = $('.menu-popup');
+            
+            $(".menu-triger, .menu-close, .header__nav-link").click(function(){
+                $menu_popup.slideToggle(300, function(){
+                    if ($menu_popup.is(':hidden')) {
+                        $('body').removeClass('body_pointer');
+                        $('svg').removeClass('active');
+                    } else {
+                        $('body').addClass('body_pointer');
+                    }					
+                });  
+                return false;
+            });			
+            
+            $(document).on('click', function(e){
+                if (!$(e.target).closest('.menu').length){
+                    $('body').removeClass('body_pointer');
+                    $menu_popup.slideUp(300);
+                }
+            });
+
+            $(document).on('click', function(e){
+                if (!$(e.target).closest('.menu').length){
+                    $('svg').removeClass('active');
+                    //$menu_popup.slideUp(300);
+                }
+            });
+            
+        });
+    </script>
+
+    <script class="source" type="text/javascript">
+		var now = new Date();
+		var day = now.getDate();
+		var month = now.getMonth() + 1;
+		var year = now.getFullYear() + 1;
+
+		var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+
+		$('#example').countdown({
+			date: '09/23/2020 10:00:00', // TODO Date format: 07/27/2017 17:00:00
+			offset: +3, // TODO Your Timezone Offset
+			day: 'день',
+			days: 'дней',
+			hideOnComplete: true
+		}, function (container) {
+			alert('Done!');
+		});
+    </script>
+
+    <script>
+        $('a[href*="#_"]')
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            && 
+            location.hostname == this.hostname
+            ) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: target.offset().top
+                }, 1000, function() {
+
+                });
+            }
+            }
+        });
+    </script>
+    <script src="./vendor/revelator/fm.revealator.jquery.js"></script>
+
+</body>
+</html>

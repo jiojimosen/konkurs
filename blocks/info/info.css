@@ -1,0 +1,25 @@
+@import url(__block/info__block.css);
+@import url(__block/_order-back/info__block_order-back.css);
+@import url(__block-image/info__block-image.css);
+@import url(__block-content/info__block-content.css);
+@import url(__block-title/info__block-title.css);
+@import url(__block-area/info__block-area.css);
+@import url(__block-part/info__block-part.css);
+@import url(__block-subtitle/info__block-subtitle.css);
+@import url(__block-paragraph/info__block-paragraph.css);
+@import url(__block-bage/info__block-bage.css);
+@import url(__line/info__line.css);
+@import url(__block-date/info__block-date.css);
+@import url(__block-link/info__block-link.css);
+@import url(__block-paragraph/_alert/info__block-paragraph_alert.css);
+@import url(__button/info__button.css);
+@import url(__block-paragraph/_info/info__block-paragraph_info.css);
+@import url(__block-link/_space/info__block-link_space.css);
+
+.info {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

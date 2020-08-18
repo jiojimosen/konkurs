@@ -1,0 +1,27 @@
+.info__button {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    /*margin: 80px 0;*/
+    transition: background-color ease-in-out 0.3s;
+}
+
+@media (max-width: 768px) {
+    .info__button {
+        font-size: 16px;
+    }
+}
+@media (max-width: 380px) {
+    .info__button {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}
+
+.info__button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}

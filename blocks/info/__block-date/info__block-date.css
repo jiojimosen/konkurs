@@ -1,0 +1,14 @@
+.info__block-date {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 55px;
+}
+
+@media (max-width: 579px) {
+    .info__block-date {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
